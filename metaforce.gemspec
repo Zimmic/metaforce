@@ -21,7 +21,7 @@ EOL
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ['lib']
 
-  s.add_dependency 'savon', '~> 2.5.0'
+  s.add_dependency 'savon'
   s.add_dependency 'rubyzip', '~> 1.0'
   s.add_dependency 'activesupport'
   s.add_dependency 'hashie', '~> 3.1.0'
